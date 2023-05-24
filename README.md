@@ -8,7 +8,9 @@ Certifique-se de ter o Node.js instalado em sua máquina. Clone o repositório e
 
 
 `git clone https://github.com/WalSacramento/APIREST_Prisma_e_Nodejs.git`
+
 `cd APIREST_Prisma_e_Nodejs`
+
 `npm install`
 
 
