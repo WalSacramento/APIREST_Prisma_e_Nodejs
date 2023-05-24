@@ -6,9 +6,11 @@ Esta é uma API REST criada com Node.js, Express, Prisma e SQLite. Ela fornece e
 
 Certifique-se de ter o Node.js instalado em sua máquina. Clone o repositório e instale as dependências:
 
+```
 git clone https://github.com/WalSacramento/APIREST_Prisma_e_Nodejs.git
 cd APIREST_Prisma_e_Nodejs
 npm install
+```
 
 
 ## Banco de dados
@@ -19,7 +21,7 @@ A API utiliza um banco de dados SQLite para armazenar os dados. O arquivo do ban
 
 Para iniciar o servidor, execute o seguinte comando:
 
-npm run dev
+`npm run dev`
 
 O servidor estará em execução em `http://localhost:3000`.
 
@@ -32,7 +34,7 @@ A API fornece as seguintes rotas:
 #### Criação de usuário
 
 POST /user
-![CreateUser](src/img/printscreen_CreatePost.png)
+![CreateUser](src/img/printscreen_CreateUser.png)
 
 Cria um novo usuário. Os dados do usuário devem ser enviados no corpo da requisição.
 
