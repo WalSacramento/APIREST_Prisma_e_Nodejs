@@ -33,6 +33,7 @@ A API fornece as seguintes rotas:
 #### Criação de usuário
 
 `POST /user`
+
 ![CreateUser](src/img/printscreen_CreateUser.png)
 
 Cria um novo usuário. Os dados do usuário devem ser enviados no corpo da requisição.
@@ -40,6 +41,7 @@ Cria um novo usuário. Os dados do usuário devem ser enviados no corpo da requi
 #### Listagem de usuários
 
 `GET /users`
+
 ![FindAllUsers](src/img/printscreen_FindAllUsers.png)
 
 Retorna todos os usuários cadastrados.
@@ -47,6 +49,7 @@ Retorna todos os usuários cadastrados.
 #### Buscar usuário por ID
 
 `GET /user/:id`
+
 ![FindUser](src/img/printscreen_UpdateUser.png)
 
 Retorna os dados de um usuário específico com base no ID fornecido.
@@ -54,6 +57,7 @@ Retorna os dados de um usuário específico com base no ID fornecido.
 #### Atualização de usuário
 
 `PUT /user/:id!`
+
 [UpdateUser](src/img/printscreen_UpdateUser.png)
 
 Atualiza os dados de um usuário específico com base no ID fornecido. Os novos dados devem ser enviados no corpo da requisição.
@@ -61,6 +65,7 @@ Atualiza os dados de um usuário específico com base no ID fornecido. Os novos 
 #### Exclusão de usuário
 
 `DELETE /user/:id`
+
 ![DeleteUser](src/img/printscreen_DeleteeUser.png)
 
 Exclui um usuário específico com base no ID fornecido.
@@ -70,6 +75,7 @@ Exclui um usuário específico com base no ID fornecido.
 #### Criação de post
 
 `POST /post/user/:id`
+
 ![CreatePost](src/img/printscreen_CreatePost.png)
 
 
@@ -78,6 +84,7 @@ Cria um novo post para um usuário específico com base no ID fornecido. Os dado
 #### Listagem de posts
 
 `GET /posts`
+
 ![FindAllPosts](src/img/printscreen_FindAllPosts.png)
 
 Retorna todos os posts cadastrados.
@@ -85,6 +92,7 @@ Retorna todos os posts cadastrados.
 #### Atualização de post
 
 `PUT /post/:id`
+
 ![UpdatePost](src/img/printscreen_UpdatePost.png)
 
 Atualiza os dados de um post específico com base no ID fornecido. Os novos dados devem ser enviados no corpo da requisição.
@@ -92,6 +100,7 @@ Atualiza os dados de um post específico com base no ID fornecido. Os novos dado
 #### Exclusão de post
 
 `DELETE /post/:id`
+
 ![DeletePost](src/img/printscreen_DeletePost.png)
 
 Exclui um post específico com base no ID fornecido.
